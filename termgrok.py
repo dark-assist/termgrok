@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/python3
-# This is a simple Python script for installing Termux gui version work on Termux-x11.
+# This is a simple Python script for installing ngrok.
 # Credit to Sanatani-hacker.
 
 import os
