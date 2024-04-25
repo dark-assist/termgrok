@@ -1,8 +1,7 @@
 ---
 
-# Termux GUI
-
-This script allows you to enhance your Termux experience by adding a graphical user interface (GUI) to your terminal. Follow the instructions below to get started.
+# Ngrok Installation.
+This Script Helps You to Install ngrok In Termux and Linux Based System.
 
 ## Installation
 
@@ -23,11 +22,11 @@ This script allows you to enhance your Termux experience by adding a graphical u
 
 4. Run the installation script:
     ```bash
-    bash termgrok.sh
+    bash termgrok.py
     ```
 5. Single Command Installation:
 ```bash
-apt update;apt install git wget -y;git clone https://github.com/dark-assist/termgrok && bash termgrok/termgrok.sh
+apt update;apt install git wget -y;git clone https://github.com/dark-assist/termgrok && python termgrok/termgrok.py
 ```
 ## Contributing
 
