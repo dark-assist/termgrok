@@ -32,11 +32,15 @@ echo "NGROK Downloaded and Extracted Successfully!"
 sleep 1.5
 clear
 echo "Opening Ngrok Dashboard...."
-termux-open-url "https://dashboard.ngrok.com/get-started/your-authtoken"
+if [[ $(uname -o) == "Android" ]]; then
+    termux-open-url "https://dashboard.ngrok.com/get-started/your-authtoken"
+else
+    firefox "https://dashboard.ngrok.com/get-started/your-authtoken"
+fi
 sleep 2
 ln -sf /data/data/com.termux/files/home/ngrok /data/data/com.termux/files/usr/bin/
 echo "Run 'ngrok authtoken (your token)' to Add Your Authorization Token...."
 echo "Usage Example:- ngrok http 8080"
-echo "If Forwarding Not Start Try to Turn On Your Phone's Hotspot...."
+echo "If You are Using Phone and Forwarding Not Start Try to Turn On Your Phone's Hotspot...."
 echo "If Any Problem Watch This Video...."
 echo "Video: Coming Soon... :)"
