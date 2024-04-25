@@ -22,11 +22,11 @@ This Script Helps You to Install ngrok In Termux and Linux Based System.
 
 4. Run the installation script:
     ```bash
-    bash termgrok.py
+    python termgrok.py
     ```
 5. Single Command Installation:
 ```bash
-apt update;apt install git wget -y;git clone https://github.com/dark-assist/termgrok && python termgrok/termgrok.py
+apt update;apt install git wget -y;git clone https://github.com/dark-assist/termgrok && cd termgrok && python termgrok.py
 ```
 ## Contributing
 
