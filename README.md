@@ -28,6 +28,7 @@ This script allows you to enhance your Termux experience by adding a graphical u
 5. Single Command Installation:
 ```bash
 apt update;apt install git wget -y;git clone https://github.com/dark-assist/termgrok && bash termgrok/termgrok.sh
+```
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
